@@ -1,0 +1,103 @@
+body {
+  background-color: #a3a3a3;
+  background-image: url("../static/images/pattern.png");
+  background-size: 100px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 16px;
+}
+
+.bookcover {
+  background-color: #F29661;
+  border-radius: 9px;
+  border: 1px solid #738186;
+  width: 960px;
+  height: 660px;
+  margin: 100px auto;
+  position: relative;
+}
+
+.bookdot {
+  border-radius: 9px;
+  border: 2px dashed #ffffff;
+  padding: 15px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+}
+
+.page {
+  background-color: #eeeeee;
+  border-radius: 9px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  display: flex;
+  padding: 15px;
+}
+
+.profile-container {
+  flex: 0.4;
+  margin-right: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.header {
+  flex: 0.1;
+}
+
+.box {
+  background-color: white;
+  flex: 3;
+  border-radius: 10px;
+  border: 1px solid #cdcdcd;
+  text-align: center;
+}
+
+.content-title {
+  padding: 6px 0;
+  display: flex;
+}
+
+.content-title-name {
+  flex: 1;
+}
+
+.content-title-url {
+  flex: 1;
+}
+
+.profile-title {
+  text-align: center;
+  padding: 6px;
+  font-size: 0.8rem;
+}
+
+.color-red {
+  color: red;
+}
+
+.color-white {
+  color: white;
+}
+
+.profile-text {
+  text-align: left;
+  font-size: 12px;
+  margin: 20px;
+}
